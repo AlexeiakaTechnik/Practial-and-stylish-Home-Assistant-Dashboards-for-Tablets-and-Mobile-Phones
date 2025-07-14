@@ -8,32 +8,32 @@ Covers Fully Kiosk integration, UI tips, device reuse (old Androids with custom 
 
 ## 📚 Table of Contents
 
-1. [🔍 Introduction](#-1-introduction)  
-2. [🧰 Requirements & Tools](#-2-requirements--tools)  
-3. [📱 Device Reuse – Tablets, Phones, Mounting](#-3-device-reuse--tablets-phones-mounting)  
-4. [🌐 Fully Kiosk Setup and Configuration](#-4-fully-kiosk-setup-and-configuration)  
-5. [🎨 UI Design Concepts & Theme Planning](#-5-ui-design-concepts--theme-planning)  
-6. [🧩 Custom UI Components (HACS)](#-6-custom-ui-components-hacs)  
-7. [🏠 Dashboard Tabs & Structure](#-7-dashboard-tabs--structure)  
-   - 👤 7.1 People & Map Tracking  
-   - 🪴 7.2 Household & Plant Care  
-   - 🛠️ 7.3 Home Assistant Control Panel
-   - 🌀 7.4 Robot Vacuums: Maps & Smart Integrations
-   - 🎵 7.5 Music & Audio Control with HA Dashboards
-   - 🌞 7.6 Energy, Power, and Solar Dashboards
-   - 🩺 7.7 Health & Wellness Tracking in Home Assistant
-   - 📊 7.8 Appliance Monitoring via Smart Sockets
-   - 🧑‍💻 7.9 Monitoring PCs, Servers, and Phones
-8. [📷 Integrating Cameras and Doorbells](#-8-integrating-cameras-and-doorbells)  
-9. [🗺️ Floor Plans and Visual Mapping](#-9-floor-plans-and-visual-mapping)  
-   - 🧷 9.1 Adding Action Icons and Badges  
-10. [📲 User Roles & Access Control](#-10-user-roles--access-control)  
-11. [🧠 Tips for Speed, Responsiveness & UX](#-11-tips-for-speed-responsiveness--ux)  
-12. [🎬 Video Walkthrough](#-12-video-walkthrough)  
-13. [🧩 Future Improvements](#-13-future-improvements)  
-14. [🪪 License](#-20-license)  
-15. [👨‍💻 Author and Inspiration](#-21-author-and-inspiration)  
-16. [🔗 Related Projects & Resources](#-22-related-projects--resources)
+1. 🔍 [Introduction](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-1-introduction-)
+2. 🧰 [Requirements & Tools](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-2-requirements--tools-)
+3. 📱 [Device Reuse – Tablets, Phones, Mounting](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-3-device-reuse--tablets-phones-mounting-) 
+4. 🌐 [Fully Kiosk Setup and Configuration](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-4-fully-kiosk-setup-and-configuration-)
+5. 🎨 [UI Design Concepts & Theme Planning](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-5-ui-design-concepts--theme-planning-) 
+6. 🧩 [Custom UI Components (HACS)](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-6-custom-ui-components-hacs-)
+7. 🏠 [Dashboard Tabs & Structure](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-7-dashboard-tabs--structure-)  
+   - 👤 7.1 [People & Map Tracking](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-71-people--map-tracking-)  
+   - 🪴 7.2 [Household & Plant Care](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-72-household--plant-care-)  
+   - 🛠️ 7.3 [Home Assistant Control Panel](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#%EF%B8%8F-73-home-assistant-control-panel-)
+   - 🌀 7.4 [Robot Vacuums: Maps & Smart Integrations](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-74-robot-vacuums-maps--smart-integrations-)
+   - 🎵 7.5 [Music & Audio Control with HA Dashboards](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-75-music--audio-control-with-ha-dashboards-)
+   - 🌞 7.6 [Energy, Power, and Solar Dashboards](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-76-energy-power-and-solar-dashboards-)
+   - 🩺 7.7 [Health & Wellness Tracking in Home Assistant](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-77-health--wellness-tracking-in-home-assistant-)
+   - 📊 7.8 [Appliance Monitoring via Smart Sockets](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-78-appliance-monitoring-via-smart-sockets-)
+   - 🧑‍💻 7.9 [Monitoring PCs, Servers, and Phones](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-79-monitoring-pcs-servers-and-phones-)
+8. 📷 [Integrating Cameras and Doorbells](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-8-integrating-cameras-and-doorbells-)
+9. 🗺️ [Floor Plans and Visual Mapping](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#%EF%B8%8F-9-floor-plans-and-visual-mapping-)  
+   - 🧷 9.1 [Adding Action Icons and Badges](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-91-adding-action-icons-and-badges)  
+10. 📲 [User Roles & Access Control](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-10-user-roles--access-control-)
+11. 🧠 [Tips for Speed, Responsiveness & UX](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-11-tips-for-speed-responsiveness--ux-) 
+12. 🎬 [Video Walkthrough](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-12-video-walkthrough-)
+13. 🧩 [Future Improvements](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-13-future-improvements-)
+14. 🪪 [License](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-14-license-)
+15. 👨‍💻 [Author and Inspiration](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-15-author-and-inspiration-)
+16. 🔗 [Related Projects & Resources](https://github.com/AlexeiakaTechnik/Practial-and-stylish-Home-Assistant-Dashboards-for-Tablets-and-Mobile-Phones/blob/main/README.md#-16-related-projects--resources-)
 
 ---
 
